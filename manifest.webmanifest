@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "Poslap Karhutla Kecamatan Maliku",
+  "short_name": "Poslap Maliku",
+  "description": "Pemantauan titik panas (hotspot), cuaca, ISPU, dan laporan kegiatan karhutla 15 desa Kecamatan Maliku, Kabupaten Pulang Pisau.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "categories": ["utilities", "weather", "government"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Peta Titik Panas", "short_name": "Peta", "url": "./?source=shortcut#peta-section", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Riwayat Laporan", "short_name": "Laporan", "url": "./?source=shortcut#report-history", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
