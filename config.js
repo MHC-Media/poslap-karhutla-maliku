@@ -9,7 +9,7 @@ window.POSLAP_CONFIG = {
   // Kontak untuk tombol "Kontak Petugas" (telepon & WhatsApp).
   // telepon: format 08xx..., +628xx..., atau 628xx... ; whatsapp: false jika nomor hanya bisa ditelepon.
   KONTAK_PETUGAS: [
-    { nama: "Camat Maliku",              jabatan: "Kecamatan Maliku",        telepon: "" },  // <- ISI NOMOR
+    { nama: "Camat Maliku",              jabatan: "Kecamatan Maliku",        telepon: "085191567007" },  // <- ISI NOMOR
     { nama: "Petugas Kecamatan / Poslap", jabatan: "Piket Karhutla Maliku",  telepon: "082350444224" },  // <- ISI NOMOR
     // { nama: "Layanan Darurat 112",        jabatan: "Nasional, bebas pulsa",  telepon: "112", whatsapp: false }
   ]
